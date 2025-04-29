@@ -29,7 +29,7 @@ const PredictionPage = () => {
     setError(null);
     
     try {
-      const response = await fetch('http://34.224.72.237:5000/predict', {
+      const response = await fetch('https://3sp014ajnk.execute-api.us-east-1.amazonaws.com/predict', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
